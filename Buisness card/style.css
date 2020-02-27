@@ -1,0 +1,53 @@
+div {
+  padding: 15px;
+}
+form {
+  width: 45%;
+  display: inline-block;
+  height: 50%;
+}
+fieldset {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+input {
+  width: 20%;
+  position: absolute;
+  left: 20%;
+}
+button {
+  margin: 5px;
+  position: relative;
+  left: 24%;
+  padding: 10px;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  background-color: rgba(0, 0, 255, 0.6);
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-top: 0;
+}
+
+body {
+  font-size: 1.2em;
+}
+header {
+  text-align: center;
+}
+.align {
+  margin-left: 12px;
+}
+label {
+  font-size: 1.2em;
+}
+.container {
+  display: inline-block;
+  width: 40%;
+  position: absolute;
+  top: 10%;
+  margin-left: 10%;
+  border: 2px solid black;
+}
+.container p {
+  margin-bottom: 50px;
+}

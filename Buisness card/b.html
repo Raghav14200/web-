@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+  <script src="app.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Buisness Card</h1>
+  </header>
+  <form>
+    <fieldset>
+      <div>
+        <label for="name">Company Name</label>
+        <input type="text" id="name" onkeyup="cname()" />
+      </div>
+      <div>
+        <label for="message">Company Message</label>
+        <input type="text" id="message" onkeyup="cmessage()" />
+      </div>
+      <div>
+        <label for="bgcolor">Background Color</label>
+        <input
+          type="color"
+          value="#ffffff"
+          id="bgcolor"
+          onchange="cbgcolor()"
+        />
+      </div>
+      <div>
+        <label for="color">Text color</label>
+        <input type="color" id="color" onchange="ccolor()" />
+      </div>
+      <label class="align">text align</label>
+      <button onclick="cleft()" type="button">left</button>
+      <button onclick="ccenter()" type="button">center</button>
+      <button onclick="cright()" type="button">right</button>
+      <div>
+        <label for="tname">Your Name</label>
+        <input type="text" id="tname" onkeyup="ctname()" />
+      </div>
+      <div>
+        <label for="title">Job Title</label>
+        <input type="text" id="title" onkeyup="ctitle()" />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" onkeyup="cemail()" />
+      </div>
+      <div>
+        <label for="phone">Telephone</label>
+        <input type="tel" id="phone" onkeyup="ctel()" />
+      </div>
+      <button>Submit</button>
+      <button>clear</button>
+    </fieldset>
+  </form>
+  <div class="container" id="1">
+    <h1 id="oname">Company Name</h1>
+    <p id="op">Company Message</p>
+    <h3 id="otname">Your Name</h3>
+    <h3 id="otitle">Job Title</h3>
+    <h3 id="oemail">Email:</h3>
+    <h3 id="otel">Telephone:</h3>
+  </div>
+</body>
