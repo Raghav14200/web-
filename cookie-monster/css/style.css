@@ -17,3 +17,20 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 }
+
+#container{
+	background-color: black;
+	height: 100vh;
+	padding-top: 23px;
+	width:424px;
+	color: white;
+}
+
+h1{
+	font-size: 80px;
+	text-align: center;
+}
+h2{
+	background-color: blue;
+	color:black;
+}
