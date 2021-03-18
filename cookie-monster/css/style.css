@@ -10,6 +10,7 @@ Developed @ One Month in NYC
 body {
 	/*background: url('../images/cookie-monster.jpg');*/
 	/* the follow is the code to have the image display as a full page */
+	background: url(../images/cookie-monster.jpg);
 	background-position: center;
 	background-attachment: fixed;
 	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
@@ -21,9 +22,10 @@ body {
 #container{
 	background-color: black;
 	height: 100vh;
-	padding-top: 23px;
-	width:424px;
+	padding: 23px  2% 0px ;
+	width:39%;
 	color: white;
+		box-sizing: border-box;
 }
 
 h1{
@@ -31,6 +33,10 @@ h1{
 	text-align: center;
 }
 h2{
-	background-color: blue;
+	background-color: #75c1f6;
 	color:black;
+}
+a{
+	color:#75c1f6;
+	text-decoration: none;
 }
