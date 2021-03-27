@@ -49,6 +49,11 @@ strong {
   margin: 0 auto;
 }
 
+h1{
+  font-size: 22px;
+  color: #666A6C;
+}
+
 header{
   background-color: #fff;
 }
@@ -59,4 +64,107 @@ header .logo{
 
 .hero img{
   width:100%;
+}
+
+.info{
+  background-color: #fff;
+  text-align: center;
+  padding: 25px;
+}
+
+.info h1 {
+ margin-bottom: 5px;
+}
+
+.info .profile {
+ margin-bottom: 24px;
+}
+.info .owner-details img{
+  border-radius: 50%;
+  margin-bottom: 6px;
+}
+
+.info h2.relationship, .info h2.name{
+  color:#909597;
+  margin-bottom: 3px;
+}
+
+.info h2.name{
+  font-weight: bold;
+}
+
+.info p.location{
+  margin-bottom: 20px;
+}
+
+.info .icon{
+  float:left;
+  width: 33.3%;
+}
+
+.info .icon img {
+ height: 30px;
+ margin-bottom: 3px;
+}
+
+.info .booking h2{
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.info h2.price time {
+ font-size: 16px;
+}
+
+@media only screen and (min-width: 1060px) {
+.container{
+  width: 1040px;
+  margin: 0 auto;
+}
+
+.column{
+  float: left;
+} 
+
+ .button {
+ width: 275px;
+ margin: auto;
+ }
+
+ .info h1 {
+ margin-bottom: 11px;
+ }
+
+ .info h2 {
+ margin-bottom: 3px;
+ }
+
+.info .profile {
+ width: 660px;
+ border-right: 1px solid #DCE0E0;
+ }
+
+ .info .booking {
+ width: 380px;
+ }
+
+  .info .owner-details {
+ width: 20%;
+ }
+
+ .info .pet-details {
+ width: 80%;
+ text-align: left;
+ }
+
+ .info .pet-details .icon {
+ width: inherit;
+ margin-right: 50px;
+ }
+
+ .info .pet-details .icon img {
+ display: block;
+ margin: 3px auto 3px;
+ }
+
 }
